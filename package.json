@@ -1,0 +1,35 @@
+{
+  "name": "Meki",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp Khusus Store atau Jualan, berisi fitur-fitur grup seperti addlist, antilink,kick, dan lainnya.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Zeeoneofc",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "npm:baileys@6.0.7",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "awesome-phonenumber": "^2.64.0",
+    "chalk": "^4.1.2",
+    "child_process": "^1.0.2",
+    "cluster": "^0.7.7",
+    "fetch": "^1.1.0",
+    "file-type": "^16.5.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "*",
+    "fs": "0.0.1-security",
+    "jimp": "^0.22.4",
+    "md5": "^2.3.0",
+    "moment-timezone": "^0.5.34",
+    "ms": "^2.1.3",
+    "node-webpmux": "^3.1.5",
+    "numeral": "^2.0.6",
+    "pino": "^7.0.5",
+    "qrcode-terminal": "^0.12.0",
+    "util": "^0.12.4"
+  }
+}
