@@ -1,11 +1,11 @@
 const fs = require("fs");
 
 exports.Config = {
-	botName: "BotName",
-	ownerName: "OwnerName",
+	botName: "NearBot",
+	ownerName: "Near.Id",
 	ampangPedia: {
-		userid: "V85ZasFS",
-		apikey: "5GeNgp1S9tU6GuW4fyCwcOvZ67Y1MVKTInX9PhUNPkdalHvFihVZcRrhAuecVx0M",
+		userid: "KZ2ttFZ7",
+		apikey: "jUzlJJR788aLnldHvF16It5lYgmz4GGBrQ0C5SQhT9zvlbc3oGs6pnUDLEioqfiN",
 	},
 	APIs: {
 		rose: "https://api.itsrose.site",
@@ -16,34 +16,25 @@ exports.Config = {
 	groupLink: "",
 	footer: "footer",
 	sticker: {
-		packname: "packageName",
-		author: "author"
+		packname: "Near",
+		author: "www.ampangpedia.com"
 	},
 	// cek folder image, timpa file
 	pp_bot: fs.readFileSync("./image/foto.jpg"),
 	qris: fs.readFileSync("./image/qris.jpg"),
 
-	owner: ["628385818401"],
+	owner: ["6285242283425"],
 	prefa: ["1", "2"],
 
 	caption_pay: `Berikut List Payment Kami
 
-Ovo ➪
-Dana ➪
-Gopay ➪
+Ovo ➪   085242283425
+Dana ➪  085242283425
+Gopay ➪ 085242283425
 
 `,
 	helpMenu: (name) => {
 		return `Halo ${name}. Berikut List Menu
-
-「 OWNER - MENU 」
-• !addsewa (add sewa group)
-• !bcgc (broadcast groups)
-• !dellsewa (hapus sewa group)
-• !join (join group)
-• !leave (leave group)
-• !listproduk (Listing Produk)
-• !trx (transaksi)
 
 「 PUBLIC - MENU 」
 • !owner
@@ -85,6 +76,16 @@ Gopay ➪
 • !open (buka group)
 • !close (tutup group)
 • !hidetag (pengumuman)
+
+
+「 OWNER - MENU 」
+• !addsewa (add sewa group)
+• !bcgc (broadcast groups)
+• !dellsewa (hapus sewa group)
+• !join (join group)
+• !leave (leave group)
+• !listproduk (Listing Produk)
+• !trx (transaksi)
 `;
 	},
 };
