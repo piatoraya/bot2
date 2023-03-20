@@ -13,15 +13,15 @@ exports.Config = {
 	},
 
 	// ubah se
-	groupLink: "",
-	footer: "footer",
+	groupLink: "https://chat.whatsapp.com/FXjFa4zhzCO4nmWw9bDfsc",
+	footer: "*ampangpedia.com*",
 	sticker: {
 		packname: "Near",
 		author: "www.ampangpedia.com"
 	},
 	// cek folder image, timpa file
 	pp_bot: fs.readFileSync("./image/foto.jpg"),
-	qris: fs.readFileSync("./image/qris.jpg"),
+	qris: fs.readFileSync("./image/photo.jpg"),
 
 	owner: ["6285242283425"],
 	prefa: ["1", "2"],
