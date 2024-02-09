@@ -4,8 +4,8 @@ exports.Config = {
 	botName: "NearBot",
 	ownerName: "Near.Id",
 	ampangPedia: {
-		userid: "KZ2ttFZ7",
-		apikey: "jUzlJJR788aLnldHvF16It5lYgmz4GGBrQ0C5SQhT9zvlbc3oGs6pnUDLEioqfiN",
+		userid: "api_id",
+		apikey: "api_key",
 	},
 	APIs: {
 		rose: "https://api.itsrose.site",
